@@ -10,7 +10,12 @@ var jsLoaders = ['babel-loader'];
 
 if (production) {
     plugins.unshift(
-        new webpack.DefinePlugin({'process.env.NODE_ENV': '"production"'}),
+        new webpack.DefinePlugin(
+            'process.env': {
+                'NODE_ENV': JSON.stringify('production')
+            }
+        ),
+        new webpack.optimize.OccurenceOrderPlugin(),
         new webpack.optimize.UglifyJsPlugin({
             compress: {
                 warnings: false

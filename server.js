@@ -9,7 +9,7 @@ var server = new WebpackDevServer(webpack(config), {
     noInfo: true
 });
 
-server.listen(8080, 'localhost', function(err, result) {
+server.listen(8080, 'localhost', function(err) {
     if (err) {
         console.log(err);
     }

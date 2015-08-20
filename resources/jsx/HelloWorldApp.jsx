@@ -1,4 +1,4 @@
-var React = require('react');
-var HelloMessage = require('./HelloMessage');
+import React from 'react';
+import HelloMessage from './HelloMessage';
 
 React.render(<HelloMessage name="World" />, document.getElementById('content'));

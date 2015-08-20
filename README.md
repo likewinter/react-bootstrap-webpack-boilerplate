@@ -10,7 +10,7 @@
 - File
 - Styles: LESS, CSS
 - Imports (shimming modules)
-- Babel (ex. 6to5) Loader for JSX and ES6
+- Babel for React and EcmaScript6
 
 ## Installing
 `npm install`

@@ -1,27 +1,29 @@
 {
-    "scripts": {
-        "start": "node server.js",
-        "build": "NODE_ENV=production webpack -p"
-    },
-    "author": "Anton Orlov",
-    "email": "anton@pinked.ru",
-    "license": "ISC",
-    "devDependencies": {
-        "babel-core": "^4.3.0",
-        "babel-loader": "^5",
-        "bootstrap": "^3",
-        "imports-loader": "^0.6",
-        "less": "^2",
-        "less-loader": "^2",
-        "react": "^0.13",
-        "react-hot-loader": "^1.2",
-        "style-loader": "^0.12",
-        "url-loader": "^0.5",
-        "webpack": "^1.10",
-        "webpack-dev-server": "^1.10",
-        "babel-eslint": "^4.0.10",
-        "eslint": "^1.2.0",
-        "eslint-plugin-babel": "^2.1.1",
-        "eslint-plugin-react": "^3.2.3"
-    }
+  "scripts": {
+    "start": "node server.js",
+    "build": "NODE_ENV=production webpack -p"
+  },
+  "author": "Anton Orlov",
+  "email": "anton@pinked.ru",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^4.3.0",
+    "babel-loader": "^5",
+    "bootstrap": "^3",
+    "imports-loader": "^0.6",
+    "less": "^2",
+    "less-loader": "^2",
+    "react": "^0.13",
+    "react-hot-loader": "^1.2",
+    "style-loader": "^0.12",
+    "url-loader": "^0.5",
+    "webpack": "^1.10",
+    "webpack-dev-server": "^1.10",
+    "babel-eslint": "^4.0.10",
+    "eslint": "^1.2.0",
+    "eslint-plugin-babel": "^2.1.1",
+    "eslint-plugin-react": "^3.2.3",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5"
+  }
 }
